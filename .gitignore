@@ -1,7 +1,8 @@
 /BLOG.MD
 /__pycache__
 /archive
-/downloads
+/downloads/*
 /headers.json
 /renderer.js
 /ttf_character_mapping.json
+/decoded_book.epub

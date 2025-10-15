@@ -239,44 +239,86 @@ Examples:
     # Load credentials from headers.json
     headers_file = Path('headers.json')
     if not headers_file.exists():
-        print("[✗] headers.json not found!")
-        print("\nCreate headers.json with:")
+        print("[✗] ERROR: headers.json not found!")
+        print("\nCreate headers.json in the current directory with:")
         print('  {')
         print('    "headers": {"x-adp-session-token": "..."},')
         print('    "cookies": "session-id=...; ..."')
         print('  }')
         sys.exit(1)
 
-    with open(headers_file) as f:
-        headers_data = json.load(f)
+    try:
+        with open(headers_file) as f:
+            headers_data = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"[✗] ERROR: Invalid JSON in headers.json: {e}")
+        print("\nEnsure headers.json is valid JSON format")
+        sys.exit(1)
+    except Exception as e:
+        print(f"[✗] ERROR: Cannot read headers.json: {e}")
+        sys.exit(1)
+
+    # Validate headers structure
+    if not isinstance(headers_data, dict):
+        print("[✗] ERROR: headers.json must contain a JSON object")
+        sys.exit(1)
 
     cookies = headers_data.get('cookies', '')
     if not cookies:
-        print("[✗] No cookies found in headers.json!")
+        print("[✗] ERROR: No 'cookies' field found in headers.json!")
+        print("\nEnsure headers.json contains:")
+        print('  {')
+        print('    "cookies": "session-id=...; ..."')
+        print('  }')
+        sys.exit(1)
+
+    if not cookies.strip():
+        print("[✗] ERROR: 'cookies' field is empty in headers.json!")
         sys.exit(1)
 
     adp_token = None
     if 'headers' in headers_data:
-        adp_token = headers_data['headers'].get('x-adp-session-token')
+        if not isinstance(headers_data['headers'], dict):
+            print("[⚠] WARNING: 'headers' field is not a JSON object, ignoring")
+        else:
+            adp_token = headers_data['headers'].get('x-adp-session-token')
+            if not adp_token:
+                print("[⚠] WARNING: No 'x-adp-session-token' found in headers")
 
     # Download
     downloader = KindleDownloader(cookies, adp_token)
 
     # Override start position if specified
     if args.start_position is not None:
-        metadata = downloader.start_reading(args.asin)
-        revision = metadata.get('contentVersion', '')
+        try:
+            metadata = downloader.start_reading(args.asin)
+            revision = metadata.get('contentVersion', '')
 
-        # Download from custom position
-        tar_data = downloader.render_pages(args.asin, revision, start_position=args.start_position, num_pages=args.pages)
+            # Download from custom position
+            tar_data = downloader.render_pages(args.asin, revision, start_position=args.start_position, num_pages=args.pages)
 
-        # Extract
-        output_dir = args.output or f"downloads/{args.asin}"
-        print(f"[*] Extracting to {output_dir}/...")
-        extracted_files = downloader.extract_tar(tar_data, output_dir)
-        print(f"[✓] Extracted {len(extracted_files)} files")
+            # Extract
+            output_dir = args.output or f"downloads/{args.asin}"
+            print(f"[*] Extracting to {output_dir}/...")
+            # Ensure output directory exists
+            Path(output_dir).mkdir(parents=True, exist_ok=True)
+            extracted_files = downloader.extract_tar(tar_data, output_dir)
+            print(f"[✓] Extracted {len(extracted_files)} files")
+        except requests.exceptions.RequestException as e:
+            print(f"[✗] ERROR: Network request failed: {e}")
+            sys.exit(1)
+        except Exception as e:
+            print(f"[✗] ERROR: Download failed: {e}")
+            sys.exit(1)
     else:
-        downloader.download(args.asin, num_pages=args.pages, output_dir=args.output)
+        try:
+            downloader.download(args.asin, num_pages=args.pages, output_dir=args.output)
+        except requests.exceptions.RequestException as e:
+            print(f"[✗] ERROR: Network request failed: {e}")
+            sys.exit(1)
+        except Exception as e:
+            print(f"[✗] ERROR: Download failed: {e}")
+            sys.exit(1)
 
 if __name__ == '__main__':
     main()
