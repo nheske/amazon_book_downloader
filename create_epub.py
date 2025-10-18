@@ -23,7 +23,7 @@ def main():
         print("Run match_ttf_to_glyphs.py first!")
         return
 
-    with open(mapping_file) as f:
+    with open(mapping_file, encoding='utf-8') as f:
         char_mapping = json.load(f)
 
     print(f"Loaded character mapping: {len(char_mapping)} glyphs")
