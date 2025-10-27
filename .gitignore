@@ -7,8 +7,9 @@ headers.json
 /decoded_book.epub
 /decoded_book.pdf
 /ttf_character_mapping.json
-/mixed_games_chapters*/
+/mixed_games*/
 /*_chapters*/
+/*_grouped*/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
