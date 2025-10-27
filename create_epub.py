@@ -240,16 +240,64 @@ def main():
 
                     current_glyph_idx += len(run['glyphs'])
 
-    # Map TOC entries to glyph indices
+    # Flatten nested TOC structure to get all chapters, avoiding duplicates
+    def flatten_toc_entries(toc_data):
+        """Flatten nested TOC structure, skipping section headers that duplicate sub-chapters"""
+        flattened = []
+        for entry in toc_data:
+            # Check if this entry has sub-entries
+            if 'entries' in entry and entry['entries']:
+                # Check if the main entry has the same position as the first sub-entry
+                first_sub_pos = entry['entries'][0]['tocPositionId']
+                if entry['tocPositionId'] == first_sub_pos:
+                    # Skip the section header, only add sub-entries
+                    for sub_entry in entry['entries']:
+                        flattened.append(sub_entry)
+                else:
+                    # Add both the main entry and sub-entries
+                    flattened.append(entry)
+                    for sub_entry in entry['entries']:
+                        flattened.append(sub_entry)
+            else:
+                # No sub-entries, add the main entry
+                flattened.append(entry)
+        return flattened
+
+    flat_toc_data = flatten_toc_entries(toc_data)
+    print(f"Flattened TOC: {len(toc_data)} main entries -> {len(flat_toc_data)} total entries")
+    
+    # Map TOC entries to glyph indices with fuzzy matching
     toc_chapters = []
-    for i, toc_entry in enumerate(toc_data):
-        pos_id = toc_entry['tocPositionId']
-        if pos_id in position_to_glyph_idx:
+    for i, toc_entry in enumerate(flat_toc_data):
+        target_pos = toc_entry['tocPositionId']
+        
+        # First try exact match
+        if target_pos in position_to_glyph_idx:
             toc_chapters.append({
                 'label': toc_entry['label'],
-                'glyph_idx': position_to_glyph_idx[pos_id],
+                'glyph_idx': position_to_glyph_idx[target_pos],
                 'chapter_num': i
             })
+        else:
+            # Try fuzzy matching - find closest position within small range
+            closest_pos = None
+            min_distance = float('inf')
+            
+            for pos_id in position_to_glyph_idx:
+                distance = abs(pos_id - target_pos)
+                if distance < min_distance and distance <= 10:  # Within 10 positions
+                    min_distance = distance
+                    closest_pos = pos_id
+            
+            if closest_pos is not None:
+                toc_chapters.append({
+                    'label': toc_entry['label'],
+                    'glyph_idx': position_to_glyph_idx[closest_pos],
+                    'chapter_num': i
+                })
+                print(f"  Using fuzzy match: {toc_entry['label']} (target {target_pos} -> actual {closest_pos}, distance {min_distance})")
+            else:
+                print(f"  No match found for: {toc_entry['label']} (position {target_pos})")
 
     print(f"Found {len(toc_chapters)} TOC entries with positions")
 

@@ -1,519 +1,495 @@
 {
   "0": {
-    "character": "h",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.29471051533501047
-  },
-  "1": {
-    "character": "O",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.003282143749867572
-  },
-  "2": {
-    "character": "fl",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2774781328035858
-  },
-  "3": {
-    "character": "’",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.01692606451505152
-  },
-  "4": {
-    "character": "j",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.17748932084038604
-  },
-  "5": {
-    "character": "p",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.22267824344350262
-  },
-  "6": {
-    "character": "S",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.19431971485351363
-  },
-  "7": {
-    "character": "v",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.19918420660418157
-  },
-  "8": {
-    "character": "1",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.17524445960684143
-  },
-  "9": {
     "character": "6",
     "font": "Bookerly",
     "style": "normal",
     "distance": 0.1339685402359625
   },
-  "10": {
-    "character": "2",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.1836725198992173
-  },
-  "11": {
-    "character": "a",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2174161953148812
-  },
-  "12": {
-    "character": "0",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.21259878029846635
-  },
-  "13": {
-    "character": "o",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.001686305739416749
-  },
-  "14": {
-    "character": "/",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.07971542670660026
-  },
-  "15": {
-    "character": "x",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.1215757039935006
-  },
-  "16": {
-    "character": "F",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.19906578138973452
-  },
-  "17": {
-    "character": "T",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0005392523105629543
-  },
-  "18": {
-    "character": "-",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 7.075174963677711e-06
-  },
-  "19": {
-    "character": "9",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.16973690476086212
-  },
-  "20": {
-    "character": "L",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.13017219309940264
-  },
-  "21": {
-    "character": ";",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.04911248062337781
-  },
-  "22": {
-    "character": "P",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.19096175071946164
-  },
-  "23": {
-    "character": "Q",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.5457440588985918
-  },
-  "24": {
-    "character": "t",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.000685659349852763
-  },
-  "25": {
-    "character": "ff",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0016268752134185327
-  },
-  "26": {
-    "character": "J",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.19251455200998357
-  },
-  "27": {
-    "character": "M",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.21644277736660777
-  },
-  "28": {
-    "character": "w",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2616346462089447
-  },
-  "29": {
+  "1": {
     "character": "fi",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.3536876856715476
+    "distance": 0.3536532889016397
   },
-  "30": {
-    "character": "Y",
+  "2": {
+    "character": "(",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.13922927856457656
+    "distance": 0.08926016854633123
   },
-  "31": {
-    "character": "7",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.18625924323916854
-  },
-  "32": {
-    "character": "+",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0008459823861473037
-  },
-  "33": {
-    "character": ")",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0018273565460724672
-  },
-  "34": {
-    "character": "I",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.1765572830162132
-  },
-  "35": {
-    "character": "s",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.19235258330818295
-  },
-  "36": {
-    "character": "n",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0008542247592047136
-  },
-  "37": {
-    "character": "W",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2810726536070973
-  },
-  "38": {
-    "character": ",",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.02578799442774171
-  },
-  "39": {
-    "character": "A",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.182705961528421
-  },
-  "40": {
-    "character": "e",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2080971084388905
-  },
-  "41": {
-    "character": "E",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.14597517412909267
-  },
-  "42": {
+  "4": {
     "character": "%",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.15109721405918264
+    "distance": 0.15109841259443368
   },
-  "43": {
-    "character": "q",
+  "5": {
+    "character": "ffi",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.2535985160950116
+    "distance": 0.6952959982862994
   },
-  "44": {
-    "character": ":",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.035660882749941614
-  },
-  "45": {
-    "character": "N",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0007438389460268091
-  },
-  "46": {
-    "character": "K",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.32374592776665434
-  },
-  "47": {
-    "character": "(",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0014759165568412058
-  },
-  "48": {
-    "character": "R",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.37540256292242336
-  },
-  "49": {
-    "character": "y",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.27749570366023213
-  },
-  "50": {
-    "character": "8",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.13882347358839642
-  },
-  "51": {
-    "character": "4",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.20582823918613102
-  },
-  "52": {
-    "character": "z",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.1446441606936133
-  },
-  "53": {
-    "character": "U",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.23656564436586147
-  },
-  "54": {
-    "character": "l",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.09268241102931007
-  },
-  "55": {
-    "character": "f",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.1651236027368097
-  },
-  "56": {
-    "character": "B",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0018073932455697772
-  },
-  "57": {
-    "character": "3",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.15209670610189074
-  },
-  "58": {
-    "character": "b",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.3389777714035991
-  },
-  "59": {
-    "character": "r",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.1721567315948047
-  },
-  "60": {
-    "character": "D",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.27967939460196045
-  },
-  "61": {
-    "character": "d",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2998873116666412
-  },
-  "62": {
-    "character": "C",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0029109343454514214
-  },
-  "63": {
-    "character": "m",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.29827038393037797
-  },
-  "64": {
+  "6": {
     "character": "∙",
     "font": "Bookerly LCD Italic",
     "style": "italic",
     "distance": 0.00043808299625358593
   },
-  "65": {
-    "character": "H",
+  "7": {
+    "character": "1",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.01549358297563419
+  },
+  "8": {
+    "character": "o",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.001686305739416749
+  },
+  "9": {
+    "character": "ff",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0016268752134185327
+  },
+  "10": {
+    "character": "N",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.20441019299535346
+    "distance": 0.20281815355056687
   },
-  "66": {
+  "11": {
+    "character": "3",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.1520627631014626
+  },
+  "12": {
+    "character": "v",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.19916329571214586
+  },
+  "13": {
     "character": "5",
     "font": "Bookerly",
     "style": "normal",
     "distance": 0.25869262192337206
   },
-  "67": {
-    "character": "g",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2655143323319209
-  },
-  "68": {
-    "character": "c",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.1870336165446207
-  },
-  "69": {
-    "character": "G",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2823463226484979
-  },
-  "70": {
+  "14": {
     "character": "u",
     "font": "Bookerly Bold",
     "style": "bold",
     "distance": 0.0006560283286793922
   },
-  "71": {
-    "character": "k",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.5857556652939022
-  },
-  "72": {
-    "character": "i",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.16176330380399562
-  },
-  "73": {
-    "character": "h",
+  "15": {
+    "character": "m",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.00047956183576780553
+    "distance": 0.0019812736175162105
   },
-  "74": {
-    "character": "b",
+  "16": {
+    "character": "L",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.0011592163232154729
+    "distance": 0.0003977843294811212
   },
-  "75": {
+  "17": {
+    "character": "O",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.4345255423704386
+  },
+  "18": {
+    "character": "f",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.002122029975240025
+  },
+  "19": {
+    "character": "z",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0003119350543834276
+  },
+  "20": {
+    "character": "J",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.19251455200998357
+  },
+  "23": {
+    "character": ":",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.00024652048468354337
+  },
+  "24": {
+    "character": "W",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.28109518907154074
+  },
+  "25": {
+    "character": "-",
+    "font": "Bookerly Bold Italic",
+    "style": "bold-italic",
+    "distance": 1.869918468622167e-05
+  },
+  "26": {
     "character": "s",
     "font": "Bookerly Bold",
     "style": "bold",
     "distance": 0.0013475709640065059
   },
-  "76": {
-    "character": "d",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0013027254974529168
-  },
-  "77": {
-    "character": "a",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0010136166511265365
-  },
-  "78": {
-    "character": "—",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 8.552375887593833e-05
-  },
-  "79": {
-    "character": "“",
+  "27": {
+    "character": "7",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.03243430537865799
+    "distance": 0.18635295974335664
   },
-  "80": {
-    "character": "m",
+  "28": {
+    "character": "G",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.0019807621530465447
+    "distance": 0.0036746551668709326
   },
-  "81": {
+  "29": {
     "character": "i",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.0008132727512855098
+    "distance": 0.0008136046633755445
   },
-  "83": {
+  "30": {
+    "character": "b",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0011592163232154729
+  },
+  "31": {
+    "character": "K",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.32377258932061337
+  },
+  "32": {
+    "character": "h",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0004795136075719242
+  },
+  "34": {
+    "character": "2",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.18376245748437436
+  },
+  "35": {
+    "character": "Y",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.13922927856457656
+  },
+  "36": {
+    "character": "P",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0011444382895198224
+  },
+  "37": {
+    "character": "Q",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.004609890522996318
+  },
+  "38": {
     "character": "”",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.03390490897640874
+    "distance": 0.03390280171544635
   },
-  "84": {
+  "39": {
+    "character": "r",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0006573003591492377
+  },
+  "40": {
+    "character": "+",
+    "font": "Bookerly LCD Italic",
+    "style": "italic",
+    "distance": 0.0003915767187134822
+  },
+  "41": {
+    "character": "t",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.000355025705653933
+  },
+  "42": {
+    "character": "0",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.21259878029846635
+  },
+  "43": {
+    "character": "’",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.00039396510982836475
+  },
+  "44": {
+    "character": "e",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.002228770788704759
+  },
+  "45": {
+    "character": "g",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.001733630034260747
+  },
+  "46": {
+    "character": "D",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2796650310374593
+  },
+  "47": {
+    "character": "I",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.17654873594390996
+  },
+  "48": {
     "character": "y",
     "font": "Bookerly Bold",
     "style": "bold",
     "distance": 0.0007924184910412801
   },
-  "85": {
-    "character": "B",
+  "49": {
+    "character": "p",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.002034054292566756
+  },
+  "50": {
+    "character": "n",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0008914840085993969
+  },
+  "51": {
+    "character": "U",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0011127213214645604
+  },
+  "52": {
+    "character": "a",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0010138991161168232
+  },
+  "53": {
+    "character": "x",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.23679830628619558
+    "distance": 0.12154833723337699
+  },
+  "54": {
+    "character": "8",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.13884874598664165
+  },
+  "55": {
+    "character": "E",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.000608622748157206
+  },
+  "56": {
+    "character": "9",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.16973690476086212
+  },
+  "57": {
+    "character": "d",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0014988581255681588
+  },
+  "58": {
+    "character": "F",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.19906578138973452
+  },
+  "59": {
+    "character": "/",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.07949067429716017
+  },
+  "60": {
+    "character": "j",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0008925761875466787
+  },
+  "61": {
+    "character": "l",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.002258257634374372
+  },
+  "62": {
+    "character": "w",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2617106897928889
+  },
+  "64": {
+    "character": "q",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0007246167052454844
+  },
+  "65": {
+    "character": "4",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.20584784837978987
+  },
+  "66": {
+    "character": "k",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.000776043032839624
+  },
+  "67": {
+    "character": ",",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.025814057946466074
+  },
+  "68": {
+    "character": "A",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.18268440204123326
+  },
+  "69": {
+    "character": ")",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.0921277391728148
+  },
+  "70": {
+    "character": "c",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.002191357988311493
+  },
+  "71": {
+    "character": "B",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0018073932455697772
+  },
+  "72": {
+    "character": "T",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0005215675251413199
+  },
+  "73": {
+    "character": "C",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0029023501887914804
+  },
+  "74": {
+    "character": "H",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0005033284985045405
+  },
+  "75": {
+    "character": "fl",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0023142294749811665
+  },
+  "76": {
+    "character": "M",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.216435348341123
+  },
+  "77": {
+    "character": "“",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.03243430537865799
+  },
+  "78": {
+    "character": "V",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.00027244013110050425
+  },
+  "79": {
+    "character": "S",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.002352417789975858
+  },
+  "80": {
+    "character": "Q",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.5457440588985918
+  },
+  "81": {
+    "character": "2",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.001632147317726096
+  },
+  "82": {
+    "character": "w",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.00038139877901466335
+  },
+  "83": {
+    "character": "O",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.003282143749867572
+  },
+  "84": {
+    "character": "8",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.003138880670351396
+  },
+  "85": {
+    "character": "j",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.17748932084038604
   },
   "86": {
-    "character": "(",
+    "character": "b",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.08926016854633123
+    "distance": 0.3389777714035991
   },
   "87": {
     "character": "?",
@@ -522,688 +498,478 @@
     "distance": 0.06377352148911886
   },
   "88": {
-    "character": "X",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.23225661110297668
-  },
-  "89": {
-    "character": "M",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0014258572089520527
-  },
-  "90": {
-    "character": "ffi",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.6952523859548176
-  },
-  "91": {
-    "character": "ff",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.31582194244383355
-  },
-  "92": {
-    "character": "u",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.25139661625247944
-  },
-  "93": {
-    "character": "!",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2117404800740763
-  },
-  "94": {
-    "character": "N",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.20301101609937366
-  },
-  "95": {
-    "character": "O",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.4345255423704386
-  },
-  "96": {
-    "character": "T",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.17863568596826807
-  },
-  "97": {
-    "character": "H",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0005018639512954781
-  },
-  "98": {
-    "character": ")",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.09210893938602194
-  },
-  "99": {
-    "character": "V",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.17813927105754468
-  },
-  "100": {
-    "character": "E",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.000608622748157206
-  },
-  "101": {
-    "character": "r",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0006583264560067192
-  },
-  "102": {
-    "character": "e",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.002228770788704759
-  },
-  "103": {
-    "character": "l",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0022604057124375743
-  },
-  "104": {
-    "character": "g",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0017295713609666308
-  },
-  "105": {
-    "character": "•",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.007200079557961869
-  },
-  "106": {
-    "character": "=",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 3.727583540058532e-05
-  },
-  "107": {
-    "character": "u",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.2512855346509868
-  },
-  "108": {
-    "character": "_",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 4.73293607305969e-05
-  },
-  "109": {
-    "character": "C",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.21905845926757372
-  },
-  "110": {
-    "character": "P",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0011444382895198224
-  },
-  "111": {
-    "character": "R",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.002099236731890608
-  },
-  "112": {
-    "character": "t",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.1757148088904903
-  },
-  "113": {
-    "character": "n",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.20575171440014417
-  },
-  "114": {
-    "character": "o",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.36085022888618923
-  },
-  "115": {
-    "character": "q",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0007279444017282977
-  },
-  "116": {
-    "character": "F",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0011031228895652667
-  },
-  "117": {
-    "character": "*",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.02154876582866172
-  },
-  "118": {
-    "character": "ff",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.3158285278846329
-  },
-  "119": {
-    "character": "‘",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.014803215551546511
-  },
-  "120": {
-    "character": "&",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.18764956456045145
-  },
-  "121": {
-    "character": "g",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00020714376958386183
-  },
-  "122": {
-    "character": "o",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00010727181540381991
-  },
-  "123": {
-    "character": "h",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0002441304968014979
-  },
-  "124": {
-    "character": "n",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.000213701638730468
-  },
-  "125": {
-    "character": "t",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00017380248258147546
-  },
-  "126": {
-    "character": "r",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0004828094525965998
-  },
-  "127": {
-    "character": "a",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00018423162357117384
-  },
-  "128": {
-    "character": "b",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0002117691096337193
-  },
-  "129": {
-    "character": "e",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00015248927333288975
-  },
-  "130": {
-    "character": "d",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00028206985631884507
-  },
-  "131": {
-    "character": ">",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00014276866262985521
-  },
-  "132": {
-    "character": "p",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.002034054292566756
-  },
-  "133": {
-    "character": "k",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0007729219190277803
-  },
-  "134": {
-    "character": "w",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.00038139877901466335
-  },
-  "135": {
-    "character": "f",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0021218680665091583
-  },
-  "136": {
-    "character": "c",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.002191357988311493
-  },
-  "137": {
-    "character": "A",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0004403149448761745
-  },
-  "138": {
-    "character": "W",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.00027913749534813626
-  },
-  "139": {
-    "character": "©",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0007667967368274464
-  },
-  "140": {
-    "character": "K",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.001169566792013077
-  },
-  "141": {
-    "character": "S",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.002352417789975858
-  },
-  "142": {
     "character": "v",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.00020007493344631477
+    "distance": 0.00020018180423186926
   },
-  "143": {
-    "character": "U",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.001113723188528315
-  },
-  "144": {
-    "character": "L",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.00039662875573776013
-  },
-  "145": {
-    "character": "G",
-    "font": "Bookerly Bold",
-    "style": "bold",
-    "distance": 0.0036855861226292586
-  },
-  "146": {
-    "character": "]",
+  "89": {
+    "character": "m",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.08810565955583272
+    "distance": 0.29827038393037797
   },
-  "147": {
-    "character": "[",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.08805176638748025
-  },
-  "148": {
-    "character": "@",
-    "font": "Bookerly",
-    "style": "normal",
-    "distance": 0.24727193970297323
-  },
-  "149": {
-    "character": "&",
+  "90": {
+    "character": "7",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.0019570438656746347
+    "distance": 0.154747375843185
   },
-  "150": {
+  "91": {
     "character": "3",
     "font": "Bookerly Bold",
     "style": "bold",
     "distance": 0.0023801132211598297
   },
-  "151": {
-    "character": "-",
-    "font": "Bookerly Bold Italic",
-    "style": "bold-italic",
-    "distance": 1.869918468622167e-05
-  },
-  "152": {
-    "character": "j",
+  "92": {
+    "character": "F",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.0008925761875466787
+    "distance": 0.0011031228895652667
   },
-  "153": {
-    "character": "G",
+  "93": {
+    "character": ";",
     "font": "Bookerly",
     "style": "normal",
-    "distance": 0.28229125487578166
+    "distance": 0.04911248062337781
   },
-  "154": {
-    "character": "z",
+  "94": {
+    "character": "’",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.016923488448948865
+  },
+  "95": {
+    "character": "6",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.00031690870908596125
+    "distance": 0.0026056661231521616
   },
-  "155": {
-    "character": "D",
+  "96": {
+    "character": "k",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.5857556652939022
+  },
+  "97": {
+    "character": "1",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.17524445960684143
+  },
+  "98": {
+    "character": "ff",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.3158285278846329
+  },
+  "99": {
+    "character": "9",
     "font": "Bookerly Bold",
     "style": "bold",
-    "distance": 0.004371986710088871
+    "distance": 0.003900754246835003
   },
-  "156": {
+  "100": {
+    "character": "p",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.22211864928276093
+  },
+  "101": {
+    "character": "5",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.2089168121624474
+  },
+  "102": {
+    "character": "f",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.1651236027368097
+  },
+  "103": {
+    "character": "A",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0004512889054530955
+  },
+  "104": {
+    "character": "!",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.21172662545844934
+  },
+  "105": {
+    "character": ")",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.001830614507292161
+  },
+  "106": {
+    "character": "T",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.17780475279533747
+  },
+  "107": {
+    "character": "g",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2655143323319209
+  },
+  "108": {
+    "character": "fl",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.27748065523764076
+  },
+  "109": {
+    "character": "-",
+    "font": "Bookerly LCD Italic",
+    "style": "italic",
+    "distance": 7.075174963677711e-06
+  },
+  "110": {
+    "character": "q",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2536205815442749
+  },
+  "111": {
+    "character": "h",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2947827049548335
+  },
+  "112": {
+    "character": "R",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.002099236731890608
+  },
+  "113": {
+    "character": "ff",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.3158211543884004
+  },
+  "114": {
+    "character": "S",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.19431971485351363
+  },
+  "115": {
     "character": "4",
     "font": "Bookerly Bold",
     "style": "bold",
     "distance": 0.07871304856909456
   },
-  "157": {
-    "character": "R",
+  "116": {
+    "character": "z",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.1446441606936133
+  },
+  "117": {
+    "character": "V",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.1781304890648927
+  },
+  "118": {
+    "character": "_",
     "font": "Bookerly LCD Italic",
     "style": "italic",
-    "distance": 0.0011467060911773963
+    "distance": 4.73293607305969e-05
   },
-  "158": {
-    "character": "s",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00010290514995459077
-  },
-  "159": {
-    "character": "i",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0004689385366507537
-  },
-  "160": {
-    "character": "c",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0001748406391777202
-  },
-  "161": {
-    "character": "m",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00027346333685285273
-  },
-  "162": {
-    "character": "l",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00015754975501769408
-  },
-  "163": {
-    "character": "y",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00039585609944658984
-  },
-  "164": {
-    "character": "7",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00020501018795027193
-  },
-  "165": {
-    "character": "P",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00048234321297968563
-  },
-  "166": {
-    "character": "k",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00020666913100653161
-  },
-  "167": {
-    "character": "0",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0003759857229501673
-  },
-  "168": {
-    "character": "L",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 6.249980261330279e-05
-  },
-  "169": {
-    "character": "3",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00033012466686632713
-  },
-  "170": {
-    "character": "E",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0013897079162827897
-  },
-  "171": {
-    "character": "1",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0008187005388837765
-  },
-  "172": {
-    "character": "v",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00013209570181582642
-  },
-  "173": {
-    "character": "H",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00011620530118827688
-  },
-  "174": {
-    "character": "5",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00018653899740539437
-  },
-  "175": {
+  "119": {
     "character": "I",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 2.7338332332371706e-05
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.00030932093199709243
   },
-  "176": {
-    "character": "/",
-    "font": "Bookerly Italic",
-    "style": "italic",
-    "distance": 4.32246948289805e-05
-  },
-  "177": {
-    "character": "S",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00039304721318078606
-  },
-  "178": {
-    "character": "x",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0002358254816481331
-  },
-  "179": {
-    "character": "T",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00011297283683098236
-  },
-  "180": {
-    "character": "W",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0002729743377727356
-  },
-  "181": {
-    "character": "A",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0007773525156440364
-  },
-  "182": {
-    "character": "K",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0033603607019472292
-  },
-  "183": {
-    "character": "2",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0010384532784912803
-  },
-  "184": {
-    "character": "6",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.000344797690453591
-  },
-  "185": {
-    "character": "ff",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0002866858713623799
-  },
-  "186": {
-    "character": "u",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0002790083196102522
-  },
-  "187": {
-    "character": "$",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0004364224483421886
-  },
-  "188": {
-    "character": "’",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00026123927324928076
-  },
-  "189": {
-    "character": "fi",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.0003198471809306991
-  },
-  "190": {
-    "character": "“",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 5.84348989662864e-05
-  },
-  "191": {
-    "character": "O",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00017560405891847708
-  },
-  "192": {
+  "120": {
     "character": "…",
     "font": "Bookerly",
     "style": "normal",
     "distance": 0.06563886100764194
   },
-  "193": {
-    "character": "”",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00022551923365976556
+  "121": {
+    "character": "E",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.14597517412909267
   },
-  "194": {
-    "character": ",",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 4.970666673931312e-05
+  "122": {
+    "character": "0",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.007519964522303413
   },
-  "195": {
-    "character": "f",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00021009021884621504
+  "123": {
+    "character": "M",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.001426122396332996
   },
-  "196": {
-    "character": "w",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00028859082389698365
+  "124": {
+    "character": "U",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.23661474564105167
   },
-  "197": {
-    "character": "N",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 0.00024162886779754977
+  "125": {
+    "character": "K",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0011681701236709863
   },
-  "198": {
+  "126": {
+    "character": "n",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.20575171440014417
+  },
+  "127": {
+    "character": "c",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.1870336165446207
+  },
+  "128": {
+    "character": "t",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.1757148088904903
+  },
+  "129": {
+    "character": "e",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2080971084388905
+  },
+  "130": {
+    "character": "R",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.3754141938736111
+  },
+  "131": {
+    "character": "o",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.36085022888618923
+  },
+  "132": {
+    "character": "u",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2512855346509868
+  },
+  "133": {
     "character": "B",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2368012765721228
+  },
+  "134": {
+    "character": "i",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.1615523828974108
+  },
+  "135": {
+    "character": "r",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.1721567315948047
+  },
+  "136": {
+    "character": "s",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.19235258330818295
+  },
+  "137": {
+    "character": "G",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2823535781334763
+  },
+  "138": {
+    "character": "L",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.13017219309940264
+  },
+  "139": {
+    "character": "P",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.19097772386030276
+  },
+  "140": {
+    "character": "l",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.09268241102931007
+  },
+  "141": {
+    "character": ":",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.035660882749941614
+  },
+  "142": {
+    "character": "y",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.27749570366023213
+  },
+  "143": {
+    "character": "d",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2998873116666412
+  },
+  "144": {
+    "character": "a",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2174161953148812
+  },
+  "145": {
+    "character": "C",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.21915969464648688
+  },
+  "146": {
+    "character": "H",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2043965660947611
+  },
+  "147": {
+    "character": "@",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.2473030711433133
+  },
+  "148": {
+    "character": "&",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.18764956456045145
+  },
+  "149": {
+    "character": "©",
     "font": "Bookerly LCD Italic",
     "style": "italic",
-    "distance": 0.0004757966621182774
+    "distance": 0.0007667967368274464
   },
-  "199": {
-    "character": "p",
+  "150": {
+    "character": "*",
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.02154876582866172
+  },
+  "151": {
+    "character": "(",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0014707571526517693
+  },
+  "153": {
+    "character": "=",
     "font": "Bookerly LCD Italic",
     "style": "italic",
-    "distance": 0.00015202528426905282
+    "distance": 0.0005156213831047918
   },
-  "200": {
-    "character": "!",
+  "154": {
+    "character": "=",
     "font": "Bookerly LCD Italic",
     "style": "italic",
-    "distance": 9.657946299368447e-05
+    "distance": 3.727583540058532e-05
   },
-  "201": {
+  "155": {
+    "character": "x",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.00030468786175297247
+  },
+  "156": {
+    "character": ",",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.0004850546991075344
+  },
+  "157": {
+    "character": "Y",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.000947192281666176
+  },
+  "158": {
+    "character": "D",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.004371986710088871
+  },
+  "159": {
     "character": "‘",
-    "font": "Bookerly LCD Italic",
-    "style": "italic",
-    "distance": 3.0588413127974334e-05
+    "font": "Bookerly",
+    "style": "normal",
+    "distance": 0.014803215551546511
+  },
+  "160": {
+    "character": "/",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 6.564139707898597e-05
+  },
+  "161": {
+    "character": "%",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.004234547325233651
+  },
+  "162": {
+    "character": "A",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.000446138841290189
+  },
+  "163": {
+    "character": "W",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.00027493935189526475
+  },
+  "164": {
+    "character": "∙",
+    "font": "Bookerly Bold Italic",
+    "style": "bold-italic",
+    "distance": 8.001179569672168e-05
+  },
+  "165": {
+    "character": "+",
+    "font": "Bookerly Bold Italic",
+    "style": "bold-italic",
+    "distance": 5.428491225978327e-05
+  },
+  "166": {
+    "character": "J",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.001335633689645288
+  },
+  "167": {
+    "character": "N",
+    "font": "Bookerly Bold",
+    "style": "bold",
+    "distance": 0.000744367429447168
   },
   "-1": {
     "character": " ",

@@ -5,6 +5,10 @@
 headers.json
 /renderer.js
 /decoded_book.epub
+/decoded_book.pdf
+/ttf_character_mapping.json
+/mixed_games_chapters*/
+/*_chapters*/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
