@@ -1,5 +1,21 @@
 # Amazon Kindle Book Downloader - AI Coding Assistant Instructions
 
+## Quick Instructions to get another book
+- Get the book's ASINAmazon page (e.g., https://amazon.com/dp/BOOKID or from Kindle Cloud Reader)
+### Authentication Setup
+- // headers.json - REQUIRED for all operations
+{
+  "headers": {"x-adp-session-token": "optional"},
+  "cookies": "session-id=...; other-cookie=..." // Encrypted format supported
+}
+note if cookie has a quote:  In JSON, double quotes inside strings need to be escaped as \".
+- run the following command
+  - python download_full_book.py YOUR_ASIN_HERE --yes
+- e.g. B006PNHPIG (How I Made My First Million From Poker)
+- python download_full_book.py B006PNHPIG --yes
+- python decode_glyphs_complete.py downloads\B006PNHPIG
+- python create_epub.py downloads\B006PNHPIG
+
 ## Project Overview
 This is a sophisticated reverse-engineering tool that downloads and reconstructs Amazon Kindle books from Kindle Cloud Reader into readable EPUB files. The process involves web scraping encrypted content, glyph-level OCR decoding, and EPUB reconstruction.
 
