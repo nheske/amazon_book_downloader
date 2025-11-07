@@ -10,6 +10,10 @@ headers.json
 /mixed_games*/
 /*_chapters*/
 /*_grouped*/
+/output/
+/**/output/
+pdfs/output/
+pdfs/*_chapters/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc

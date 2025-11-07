@@ -100,6 +100,14 @@ def identify_front_matter_chapters(chapters):
         'dedication', 'table of contents', 'toc'
     ]
     
+    # Strategy book keywords that should be treated as main chapters
+    strategy_keywords = [
+        'play to learn', 'table selection', 'bankroll management', 'math is easy',
+        'pre-flop', 'post-flop', '3-betting', '4-betting', 'adjusting against',
+        'balancing your range', 'multi-way pots', 'scare cards', 'timing tells',
+        'final words'
+    ]
+    
     front_matter = []
     main_chapters = []
     
@@ -116,8 +124,11 @@ def identify_front_matter_chapters(chapters):
             re.search(r'^\d+\.', chapter['title'])  # "1. Game Name"
         )
         
-        # If we hit a numbered chapter, everything from here on is main content
-        if is_numbered_chapter:
+        # Check if this is a strategy book main section
+        is_strategy_chapter = any(keyword in title_lower for keyword in strategy_keywords)
+        
+        # If we hit a numbered chapter or strategy chapter, everything from here on is main content
+        if is_numbered_chapter or is_strategy_chapter:
             main_content_started = True
         
         # Special case: Glossary goes with main content even though it's not numbered
@@ -460,6 +471,18 @@ def split_epub_to_chapter_pdfs(epub_path, output_dir=None):
         
         successful_conversions = 0
         
+        # First, create a complete book PDF from the original EPUB
+        print(f"[*] Creating complete book PDF...")
+        try:
+            complete_book_pdf = output_dir / "00_Complete_Book.pdf"
+            if convert_epub_to_pdf(epub_path, complete_book_pdf):
+                print(f"[✓] Created: 00_Complete_Book.pdf")
+                successful_conversions += 1
+            else:
+                print(f"[✗] Failed to create complete book PDF")
+        except Exception as e:
+            print(f"[✗] Error creating complete book PDF: {e}")
+        
         # Process front matter as a single combined PDF
         if front_matter:
             print(f"[*] Processing Front Matter ({len(front_matter)} chapters): {', '.join([ch['title'] for ch in front_matter])}")
@@ -516,7 +539,7 @@ def split_epub_to_chapter_pdfs(epub_path, output_dir=None):
             except Exception as e:
                 print(f"[✗] Error processing chapter {chapter_info['title']}: {e}")
         
-        total_expected = (1 if front_matter else 0) + len(main_chapters)
+        total_expected = 1 + (1 if front_matter else 0) + len(main_chapters)  # +1 for complete book
         print(f"\n[✓] Conversion complete!")
         print(f"[*] Successfully converted {successful_conversions}/{total_expected} items")
         print(f"[*] Chapter PDFs saved to: {output_dir}")
