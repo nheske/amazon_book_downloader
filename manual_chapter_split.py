@@ -10,22 +10,22 @@ from PyPDF2 import PdfReader, PdfWriter
 def get_modern_poker_chapters():
     """
     Manual mapping of Modern Poker Theory chapters based on the actual book structure
+    CORRECTED BOUNDARIES - Chapter 3 (Modern Poker Software) is actually part of Chapter 2
     """
     return [
         {'number': 1, 'title': 'Poker Fundamentals', 'start_page': 18},
-        {'number': 2, 'title': 'The Elements of Game Theory', 'start_page': 84}, 
-        {'number': 3, 'title': 'Modern Poker Software', 'start_page': 148},
-        {'number': 4, 'title': 'The Theory of Pre-flop Play', 'start_page': 150},
-        {'number': 5, 'title': '6-max Cash Game Equilibrium Strategies', 'start_page': 180},
-        {'number': 6, 'title': 'The Theory of Tournament Play', 'start_page': 250},
-        {'number': 7, 'title': 'MTT Equilibrium Strategies - Playing First In', 'start_page': 293},
-        {'number': 8, 'title': 'MTT Equilibrium Strategies - Defense', 'start_page': 360},
-        {'number': 9, 'title': 'MTT Equilibrium Strategies - Playing Versus 3-bets', 'start_page': 513},
-        {'number': 10, 'title': 'The Theory of Post-flop Play', 'start_page': 589},
-        {'number': 11, 'title': 'The Theory of Flop Play', 'start_page': 624},
-        {'number': 12, 'title': 'The Flop Continuation-bet', 'start_page': 650},
-        {'number': 13, 'title': 'GTO Turn Strategies', 'start_page': 748},
-        {'number': 14, 'title': 'GTO River Strategies', 'start_page': 779},
+        {'number': 2, 'title': 'The Elements of Game Theory', 'start_page': 83}, 
+        {'number': 3, 'title': 'The Theory of Pre-flop Play', 'start_page': 149},
+        {'number': 4, 'title': '6-max Cash Game Equilibrium Strategies', 'start_page': 179},
+        {'number': 5, 'title': 'The Theory of Tournament Play', 'start_page': 249},
+        {'number': 6, 'title': 'MTT Equilibrium Strategies - Playing First In', 'start_page': 292},
+        {'number': 7, 'title': 'MTT Equilibrium Strategies - Defense', 'start_page': 359},
+        {'number': 8, 'title': 'MTT Equilibrium Strategies - Playing Versus 3-bets', 'start_page': 512},
+        {'number': 9, 'title': 'The Theory of Post-flop Play', 'start_page': 588},
+        {'number': 10, 'title': 'The Theory of Flop Play', 'start_page': 623},
+        {'number': 11, 'title': 'The Flop Continuation-bet', 'start_page': 649},
+        {'number': 12, 'title': 'GTO Turn Strategies', 'start_page': 747},
+        {'number': 13, 'title': 'GTO River Strategies', 'start_page': 778},
     ]
 
 def verify_chapters(pdf_path, chapters):
