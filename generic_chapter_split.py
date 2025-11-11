@@ -29,6 +29,33 @@ KNOWN_BOOKS = {
             {'number': 14, 'title': 'GTO River Strategies', 'start_page': 779},
         ]
     },
+    "expert_heads_up_volume2": {
+        "patterns": ["volume 2", "multiple streets"],
+        "chapters": [
+            {'number': 9, 'title': 'Preliminaries', 'start_page': 13},
+            {'number': 10, 'title': 'Turn Play - Polar Versus Bluff-catchers Redux', 'start_page': 50},
+            {'number': 11, 'title': 'Nearly Static, Nearly PvBC Turn Play', 'start_page': 107},
+            {'number': 12, 'title': 'Initiative and Less Common Turn Lines', 'start_page': 144},
+            {'number': 13, 'title': 'Turn Play - Volatile Boards and Capture Factors', 'start_page': 194},
+            {'number': 14, 'title': 'Flop Play and the C-bet Dynamic', 'start_page': 242},
+            {'number': 15, 'title': 'Pre-Flop Play', 'start_page': 326},
+            {'number': 16, 'title': 'Win-rate-maximizing Play', 'start_page': 371},
+            {'number': 17, 'title': 'Putting it all Together', 'start_page': 390},
+        ]
+    },
+    "expert_heads_up": {
+        "patterns": ["expert heads up", "heads up no limit", "hunl"],
+        "chapters": [
+            {'number': 1, 'title': 'Introduction to HUNL Strategy', 'start_page': 13},
+            {'number': 2, 'title': 'Game-theoretic Strategies', 'start_page': 26},
+            {'number': 3, 'title': 'Preflop-only Games', 'start_page': 74},
+            {'number': 4, 'title': 'The Indifference Principle', 'start_page': 109},
+            {'number': 5, 'title': 'Equity Distributions', 'start_page': 133},
+            {'number': 6, 'title': 'Postflop Concepts', 'start_page': 153},
+            {'number': 7, 'title': 'River Play', 'start_page': 194},
+            {'number': 8, 'title': 'Epilogue to Volume I', 'start_page': 326},
+        ]
+    },
     # Add more books here as needed
     "example_book": {
         "patterns": ["example", "sample book"],
